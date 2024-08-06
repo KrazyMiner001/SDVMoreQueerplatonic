@@ -1,0 +1,11 @@
+{
+    "Name": "More Queerplatonic SDV Relationships",
+    "Author": "KrazyMiner001",
+    "Version": "1.0.0",
+    "Description": "A mod which adds more aro representation to Stardew Valley by adding more queerplatonic relationships",
+    "UniqueID": "KrazyMiner001.MoreQueerplatonic",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
