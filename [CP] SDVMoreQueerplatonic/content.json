@@ -2,58 +2,8 @@
     "Format": "2.3.0",
     "Changes": [
         {
-            "Action": "Load",
-            "Target": "Characters/Marlowe",
-            "FromFile": "assets/sprites.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Portraits/Marlowe",
-            "FromFile": "assets/portraits.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/Dialogue/Marlowe",
-            "FromFile": "assets/dialogue.json"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/Dialogue/MarriageDialogueMarlowe",
-            "FromFile": "assets/marriageDialogue.json"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/schedules/Marlowe",
-            "FromFile": "assets/schedule.json"
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/NPCDispositions",
-            "Entries": {
-                "Marlowe": "adult/nuetral/shy/positive/undefined/secret//Town/fall 27//BusStop 19 4/Marlowe"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "Entries": {
-                "Marlowe": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! This is a very interesting specimen./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/EngagementDialogue",
-            "Entries": {
-                "Marlowe0": "WIP",
-                "Marlowe1": "WIP"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                
-            }
+            "Action": "Include",
+            "FromFile": "NPCs/Marlowe.json"
         }
     ]
 }

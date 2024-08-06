@@ -1,0 +1,62 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/Marlowe",
+            "FromFile": "assets/sprites/Marlowe.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Marlowe",
+            "FromFile": "assets/portraits/Marlowe.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Marlowe",
+            "FromFile": "assets/dialogue/Marlowe.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueMarlowe",
+            "FromFile": "assets/dialogue/MarriageDialogueMarlowe.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Marlowe",
+            "FromFile": "assets/schedules/Marlowe.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Marlowe": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! This is a very interesting specimen./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Marlowe0": "WIP",
+                "Marlowe1": "WIP"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Marlowe": {
+                    "DisplayName": "Marlowe",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "Optimism": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "BirthSeason": "Fall",
+                    "BirthDay": 27,
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": false
+                }
+            }
+        }
+    ]
+}
