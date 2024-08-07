@@ -57,6 +57,14 @@
                     "CanBeRomanced": false
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_FriendshipNecklace", "ContextTags" ],
+            "Entries": {
+                "propose_roommate_marlowe": "propose_roommate_marlowe"
+            }
         }
     ]
 }
